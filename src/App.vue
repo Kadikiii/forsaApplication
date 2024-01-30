@@ -1,14 +1,14 @@
 <script setup>
-import buttonComponentVue from './components/buttonComponent.vue'
+import { ref } from 'vue';
+import navBar from './components/navBar.vue';
 </script>
-
 <template>
   <div>
-    <buttonComponentVue />
-
+<navBar />
   </div>
 </template>
 
 <style scoped>
 
 </style>
+

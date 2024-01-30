@@ -7,7 +7,13 @@ module.exports = {
   ],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primaryColor: '#0E2F56',
+        secondaryColor: '#ECECDA',
+
+      },
+    },
   },
   variants: {
     extend: {},
