@@ -1,6 +1,6 @@
 <template>
     <navBar />
-        <section class="flex justify-between ">
+        <section class="flex justify-between w-full h-full ">
     <div class="pr-32 text-4xl flex-wrap mt-14 text-primaryColor heroSection ">
         <h1 style="line-height: 1.5;">  اكتشف عالم الفرص الواعدة في ليبيا مع تطبيق  <span class="text-primaryColor font-bold"><a href="/">فُرصة</a></span>
 اطلق العنان لطموحاتك ومهاراتك الفريدةستمنحك هذه  الأداة القوية فرصة للوصول إلى الوظيفة التي تحلم بها لتشق طريقك نحو النجاح والتميز.</h1>
@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import navBar from './navBar.vue';
+import navBar from './navbar.vue';
 </script>
 
 
