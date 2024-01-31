@@ -15,16 +15,7 @@
     </div>
    
 
-    <div>
-        <h1 class="font-cairo font-bold text-3xl text-primaryColor text-center">او يمكنك التواصل معنا على:</h1>
-    </div>
-    <div class=" flex text-center items-center justify-center pb-12">
-         <img class="w-16 h-16" src="../../assets/svgs/Facebook.svg" alt="">
-        <img class="w-16 h-16" src="../../assets/svgs/youtube.svg" alt="">
-        <img class="w-16 h-16" src="../../assets/svgs/twitter.svg" alt="">
-        <img class="w-16 h-16" src="../../assets/svgs/linkedin.svg" alt="">
-        <img class="w-16 h-16" src="../../assets/svgs/instagram.svg" alt="">
-    </div>
+  
        
 
     <div>
@@ -35,6 +26,7 @@
 <script setup>
 import inputComponent from './inputComponent.vue';
 import buttonComponent from '../buttonComponent.vue';
+import svgs from '../svgs.vue';
 
 </script>
 
