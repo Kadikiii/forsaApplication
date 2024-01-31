@@ -13,6 +13,10 @@ module.exports = {
         secondaryColor: '#ECECDA',
 
       },
+
+      fontFamily: {
+        cairo: ['Cairo', 'sans-serif'],
+      },
     },
   },
   variants: {

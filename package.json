@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "typeface-cairo": "^1.1.13",
     "vue": "^3.2.47"
   },
   "devDependencies": {
