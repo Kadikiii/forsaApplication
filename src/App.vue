@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import heroSection from './components/heroSection.vue';
 import aboutUs from './components/about/aboutUs.vue';
+import contactUs from './components/contact/contactUs.vue';
 </script>
 <template>
   <div>
@@ -10,6 +11,11 @@ import aboutUs from './components/about/aboutUs.vue';
 
   <div>
 <aboutUs />
+  </div>
+
+  <div>
+
+    <contactUs />
   </div>
 </template>
 
