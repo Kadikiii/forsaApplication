@@ -1,13 +1,13 @@
 <template>
-    <div class="section">
-    <h1 class="text-white font-cairo"> <slot></slot></h1>
-    <p class="text-white font-cairo"> <slot name="paragraph"></slot> </p>
+    <div class="section pr-32 pt-12 ">
+    <h1 class="text-white font-cairo font-light text-4xl"><slot name="title"></slot></h1>
+    <p class="text-white font-cairo pt-12 text-xl font-light"> <slot name="paragraph"></slot> </p>
 </div>
 
 </template>
 
 <style scoped>
 .section {
-    width: 500px;
+    width: 750px;
 }
 </style>
