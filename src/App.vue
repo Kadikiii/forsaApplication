@@ -1,10 +1,10 @@
 <script setup>
 import { ref } from 'vue';
-import navBar from './components/navBar.vue';
+import heroSection from './components/heroSection.vue';
 </script>
 <template>
   <div>
-<navBar />
+<heroSection />
   </div>
 </template>
 
