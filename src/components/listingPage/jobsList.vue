@@ -38,11 +38,10 @@
           فريق, يفضل أن يكون ماهرا في إستخدام برنامج Adobe illustrator, Adobe
           Photoshop, Figma...
         </p>
-        <button
-          class="text-grayText border border-solid border-grayBorder rounded-full px-10 py-1 bg-white hover:bg-btnHoverFill hover:border-borderHover transition duration-300 self-center"
-        >
-          المزيد
-        </button>
+       <div class="text-grayText border border-solid border-grayBorder rounded-full px-10 py-1 bg-white hover:bg-btnHoverFill hover:border-borderHover transition duration-300 self-center">
+        <router-link to="/jobs/job">التفاصيل</router-link>
+
+       </div>
       </div>
     </div>
     <div

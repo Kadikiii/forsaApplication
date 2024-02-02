@@ -66,11 +66,10 @@
         </p>
       </div>
       <div class="flex justify-center items-center mt-20">
-        <button
-          class="font-bold bg-primaryColor text-white hover:bg-primaryHover transition duration-300 px-10 py-3 rounded-lg"
-        >
-          قدم الآن
-        </button>
+        <div  class="font-bold bg-primaryColor text-white hover:bg-primaryHover transition duration-300 px-10 py-3 rounded-lg">
+            <router-link to="/jobs/job/apply">قدم الآن</router-link>
+      
+         </div>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@ import {
 import HomeView from "../views/HomeView.vue";
 import JobView from "../views/JobView.vue";
 import JobDescriptionView from "../views/JobDescriptionView.vue";
+import ApplyJobView from "../views/ApplyJobView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -20,9 +21,14 @@ const router = createRouter({
       component: JobView,
     },
     {
-      path: "/job",
+      path: "/jobs/job",
       name: "job",
       component: JobDescriptionView,
+    },
+    {
+      path: "/jobs/job/apply",
+      name: "apply",
+      component: ApplyJobView,
     },
   ],
 });
