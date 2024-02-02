@@ -33,8 +33,8 @@
 </template>
 
 <script setup>
-import inputComponent from './inputComponent.vue';
-import buttonComponent from '../buttonComponent.vue';
+import inputComponent from './inputcomponent.vue';
+import buttonComponent from '../buttoncomponent.vue';
 
 </script>
 
