@@ -23,10 +23,12 @@
                 <p class="font-cairo font-light text-md text-white pb-4">ملفات تعريف الإرتباط</p>
             </div>
 
-            <div>
+            <div class="grid place-content-start">
         <h1 class="font-cairo font-light text-md text-white mb-2">إشترك في نشرتنا الأسبوعية</h1>
-            <input type="text" name="" placeholder="البريد الإلكتروني" class="w-full border-b-2 border-white focus:outline-none focus:border-blue-500 rounded-lg px-6 py-1">
-       
+            <input type="text" name="" placeholder="البريد الإلكتروني" class="w-full border-b-2 border-white focus:outline-none focus:border-blue-500 rounded-lg px-6 py-1"
+            
+            >
+          
       </div>
 
             <div class="ml-12">
@@ -60,10 +62,11 @@ input::placeholder {
     font-weight: lighter;
 }
 p:hover {
-  color: gold;
+  color: blanchedalmond;
 }
 </style>
 
 <script setup>
 import svgs from '../svgs.vue';
+import buttonComponent from '../buttonComponent.vue';
 </script>

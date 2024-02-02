@@ -1,6 +1,6 @@
 <template>
  <div>
-  <button class="px-4 py-2 font-semibold rounded-md transition-colors ease-in-out duration-300  font-cairo" 
+  <button class="px-4 py-2 font-semibold rounded-md transition-colors ease-in-out duration-300 font-cairo" 
   :class="[buttonClass, textClass]">
     <slot></slot>
   </button>

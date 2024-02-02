@@ -9,7 +9,7 @@
         <li class=""><a href="#" class="text-primaryColor hover:border-primaryColor hover:border-b-2 hover:pb-1 hover: duration-100 ">من نحن</a></li>
       </div>
       <div class="flex list-none justify-between font-cairo"> 
-       <buttonComponent class="px-4 font-semibold rounded " buttonColor="bg-primaryColor hover:bg-sky-950 hover:text-primarycolor" textClass="text-secondaryColor">انشاء حساب</buttonComponent>
+       <buttonComponent class="px-4 font-semibold rounded " buttonColor="bg-primaryColor hover:bg-sky-950 hover: text-primarycolor"  textClass="text-secondaryColor">انشاء حساب</buttonComponent>
        <buttonComponent class="border rounded-md hover:border-primaryColor hover: duration-500 " buttonColor="bg-transparent" textClass=" text-primaryColor ">تسجيل الدخول</buttonComponent>
       </div>
     </nav>
